@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="testModelStoreContainer" CdmEntityContainer="testEntities">
+    <EntitySetMapping Name="Sop_Excel">
+      <EntityTypeMapping TypeName="testModel.Sop_Excel">
+        <MappingFragment StoreEntitySet="Sop_Excel">
+          <ScalarProperty Name="addtime" ColumnName="addtime" />
+          <ScalarProperty Name="excelpath" ColumnName="excelpath" />
+          <ScalarProperty Name="excelname" ColumnName="excelname" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sop_Img">
+      <EntityTypeMapping TypeName="testModel.Sop_Img">
+        <MappingFragment StoreEntitySet="Sop_Img">
+          <ScalarProperty Name="imgpath" ColumnName="imgpath" />
+          <ScalarProperty Name="imgid" ColumnName="imgid" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
